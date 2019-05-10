@@ -75,24 +75,42 @@ h1 {
 
 #catalog {
 	display: flex;
-	flex-wrap: wrap
-	padding: 2rem 5rem;
+	justify-content: space-between;	
+  	flex-wrap: wrap;
+	height: 100%;
+	margin-top: 0.5rem;
 }
 
 .box {
-	width: 60%;
-	border: 1px solid blue;
-	align-items: baseline;
-  	display: inline-block;
-  	flex-grow: 1;
-  	margin-left: 2rem;
-  	margin-bottom: 2rem;
+	width: 40%;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
 }
 
+.box img {
+  	width: 100%;
+  	height: 70%;
+	display: block;	
+}
 
+.box p {
+	font-weight: bold;
+}
 
+/* Footer */
 
+hr {
+	border: 0.2rem solid;
+	color: #978483;
+}
 
+footer {
+	text-align: center;
+}
+
+footer img {
+	width: 20%;
+}
 
 
 
