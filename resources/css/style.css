@@ -1,4 +1,42 @@
 body {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#container {
+	width: 80%;
 	margin: 0 auto;
-	font-size: 13px;
+}
+header {
+	
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	background-color: lightgrey;
+	align-items: center;
+	width: 100%
+}
+
+#logo img, h2 {
+	padding: 0.4rem;
+}
+
+#logo img {
+	width: 30%;
+}
+
+#logo h2 {
+	margin-right: 10rem;
+}
+
+nav {
+	background-color: brown;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
 }
