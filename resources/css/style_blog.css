@@ -82,3 +82,72 @@ footer p {
 footer img {
     width: 20%;
 }
+
+
+/* MAIN CONTENT */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    background-color: #ffc7c7;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-shadow: 0.125rem 0.125rem #a6e3e9;
+}
+
+#main-post {
+    width: 60%;
+}
+
+
+
+#other-posts {
+    width: 40%;
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    border-left: 0.2rem solid #ffe2e2;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.post img {
+    width: 40%;
+    height: auto;
+    padding: 0.75rem;
+}
+
+.text h3, .text p {
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.post:hover {
+    background-color: #f6f6f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
