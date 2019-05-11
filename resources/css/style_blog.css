@@ -22,7 +22,8 @@ body {
     display: flex;
     background-color: #defcfc;
     align-items: center;
-    width: 100%
+    width: 100% padding-top: 0.5rem;
+    padding-bottom: 0.5em;
 }
 
 #logo img,
@@ -156,7 +157,8 @@ h1 {
     padding: 0.75rem;
 }
 
-.text h3, .text p {
+.text h3,
+.text p {
     font-size: 0.75rem;
     padding-bottom: 0.5rem;
 }
@@ -178,17 +180,3 @@ h1 {
 .post:hover {
     background-color: #f6f6f6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

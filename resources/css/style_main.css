@@ -9,12 +9,13 @@ body {
 }
 
 /* HEADER */
-
 #logo {
     display: flex;
     background-color: #ECEDED;
     align-items: center;
-    width: 100%
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5em;
 }
 
 #logo img,
