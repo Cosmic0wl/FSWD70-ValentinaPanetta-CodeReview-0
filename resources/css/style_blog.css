@@ -2,7 +2,7 @@
 /* color palette: 
    pink: #ffc7c7
    lightpink: #ffe2e2
-   babyblue: #defcfc;
+   babyblue: #defcfc
    white: #f6f6f6
    blue: #a6e3e9 */
 
@@ -90,6 +90,7 @@ footer img {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 h1 {
@@ -103,9 +104,32 @@ h1 {
 
 #main-post {
     width: 60%;
+    padding: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
+#main-post h2 {
+    color: #ffc7c7;
+}
 
+#main-post img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #ffc7c7;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffe2e2;
+}
 
 #other-posts {
     width: 40%;
@@ -131,12 +155,23 @@ h1 {
     padding-bottom: 0.5rem;
 }
 
+.text h3 {
+    color: #ffc7c7;
+}
+
+.text a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #a6e3e9;
+}
+
+.text a:hover {
+    color: #defcfc;
+}
+
 .post:hover {
     background-color: #f6f6f6;
 }
-
-
-
 
 
 
