@@ -82,3 +82,46 @@ footer p {
 footer img {
     width: 20%;
 }
+
+
+/* MAIN CONTENT */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 0.2rem solid #f6f6f6;
+}
+
+
+.about, .image {
+    width: 45%;
+    margin: 1rem;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffc7c7;
+}
+
+.image p {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
