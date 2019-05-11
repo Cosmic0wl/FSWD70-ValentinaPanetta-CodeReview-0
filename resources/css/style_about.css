@@ -99,7 +99,6 @@ footer img {
     max-width: 100%;
     height: auto;
     display: block;
-    border: 0.2rem solid #f6f6f6;
 }
 
 
@@ -107,11 +106,13 @@ footer img {
 .image {
     width: 45%;
     margin: 1rem;
+    border: 0.2rem solid #ffe2e2;
 }
 
 .about {
     text-align: justify;
     text-justify: inter-word;
+    padding: 1rem;
 }
 
 .about p {
